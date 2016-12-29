@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'opensolitaire.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'opensolitaire',
-        'USER': 'opensolitaire',
+        'NAME': 'open_solitaire',
+        'USER': 'root_user',
         'PASSWORD': 'stuart',
         'HOST': 'localhost',
         'PORT': '',
